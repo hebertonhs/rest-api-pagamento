@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.heberton.dados.StaticBD;
 import br.com.heberton.dominio.Pagamento;
 
-@CrossOrigin(origins = "*", allowedHeaders = "*") // habilitado no controller
+@CrossOrigin(origins = "*", allowedHeaders = "*") // habilitado no controller para permitir acessos
 @RestController
 public class Restfull {
 	
